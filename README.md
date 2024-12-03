@@ -1,8 +1,16 @@
-# React + Vite
+Netflix Clone
+A fully responsive Netflix clone built with React, showcasing dynamic movie content fetched from the TMDB API. The project features user authentication using Firebase, a sleek login interface with a loading animation, and a movie player for streaming trailers.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features:
+1.Home Page: Displays movie titles fetched from the TMDB API, categorized for easy browsing.
+2.Login & Registration: User authentication powered by Firebase for secure sign-up and sign-in.
+3.Player Component: Allows users to play movie trailers directly within the app.
+4.Title Cards: Scrollable lists of movie posters with dynamic data loading.
+5.Responsive Design: Fully optimized for any screen size, ensuring a seamless experience on mobile, tablet, and desktop.
+6.Loading Animation: Custom loading animation on the login page for better user experience.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tech Stack:
+Frontend: React, CSS, React Router
+Backend Services: Firebase (Authentication)
+API: TMDB (The Movie Database)
+Version Control: Git & GitHub
